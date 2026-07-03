@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    body {
+      font-family:
+        "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+        "Arial", sans-serif;
+    }
+
+    .shadow {
+      box-shadow:
+        rgba(255, 216, 1, 0.16) 0px 1px 4px,
+        rgba(48, 41, 1, 0.07) 0px 1px 2px,
+        rgba(83, 71, 0, 0.07) 0px 2px 4px,
+        rgba(54, 46, 0, 0.07) 0px 4px 8px,
+        rgba(66, 56, 0, 0.07) 0px 8px 16px,
+        rgba(69, 59, 0, 0.07) 0px 16px 32px,
+        rgba(74, 63, 0, 0.07) 0px 32px 64px;
+    }
+  </style>
+</head>
+
+<body class="w-full h-screen bg-[#fffdfb]">
+  <div class="w-full h-full flex items-center justify-center px-0 sm:px-2">
+    <div
+      class="max-w-7xl flex w-full mx-auto h-full sm:h-200 bg-white rounded-none sm:rounded-4xl shadow overflow-hidden">
+      <div class="w-1/2 h-full relative hidden md:block bg-cover bg-center" style="background-image: url(./cuo.png)">
+        <div class="w-full p-12">
+          <p class="text-white text-lg font-medium">Coffee-ng Mechanism</p>
+          <div class="mt-16">
+            <p
+              class="text-transparent bg-clip-text bg-gradient-to-r from-white via-[40%] to-[#ad4e00] text-4xl font-medium">
+              Sip. Savor. <br />
+              Cope: Espresso Yourself.
+            </p>
+            <p class="text-white/70 font-medium mt-4 md w-[80%] lg:w-[50%]">
+              Create your account and unlock a world of handcraft experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1 p-6 sm:p-12 h-full flex items-center justify-center relative">
+        <div class="text-center">
+          <h3 class="font-semibold text-3xl">Create an Account</h3>
+          <p class="w-[80%] text-black/70 mt-2 text-sm font-medium mx-auto">
+            Sesize the moment - sign up for seamless experinces tailored just
+            for you .
+          </p>
+          <div class="w-full mt-8">
+            <div class="name relative mt-3">
+              <input type="text" placeholder="Full Name"
+                class="w-full border border-black/20 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ad4e00] focus:border-transparent pl-10 font-medium" />
+              <svg class="absolute size-5 top-1/2 left-2 text-black/70 -translate-y-1/2" viewBox="0 0 24 24">
+                <title>person.fill</title>
+                <path
+                  transform="matrix(0.9492028179458658, 0, 0, 0.9492028179458658, -0.19688542825361655, 20.03114571746385)"
+                  d="M12.86-8.78C15.36-8.78 17.54-11.03 17.54-13.96C17.54-16.85 15.36-19.00 12.86-19.00C10.35-19.00 8.17-16.80 8.17-13.93C8.17-11.03 10.34-8.78 12.86-8.78ZM4.99 2.07L20.71 2.07C21.96 2.07 22.71 1.49 22.71 0.52C22.71-2.51 18.93-6.68 12.84-6.68C6.77-6.68 2.99-2.51 2.99 0.52C2.99 1.49 3.74 2.07 4.99 2.07Z"
+                  fill="currentColor" />
+              </svg>
+            </div>
+            <div class="email relative mt-3">
+              <input type="email" placeholder="Email Address"
+                class="w-full border border-black/20 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ad4e00] focus:border-transparent pl-10 font-medium" />
+              <svg class="absolute size-5 top-1/2 left-2 text-black/70 -translate-y-1/2" viewBox="0 0 24 24">
+                <title>envelope.fill</title>
+                <path
+                  transform="matrix(0.7072800110512502, 0, 0, 0.7072800110512502, -0.11355159552424343, 17.97596353087443)"
+                  d="M17.12-7.15C17.51-7.15 17.88-7.30 18.25-7.63L29.95-17.94C29.32-18.36 28.59-18.55 27.59-18.55L6.67-18.55C5.66-18.55 4.93-18.36 4.29-17.94L16.00-7.63C16.37-7.30 16.75-7.15 17.12-7.15ZM3.29-0.25L11.96-8.91L3.27-16.57C3.14-16.32 2.99-15.73 2.99-14.92L2.99-1.98C2.99-1.23 3.11-0.69 3.29-0.25ZM30.96-0.25C31.14-0.69 31.27-1.23 31.27-1.98L31.27-14.92C31.27-15.73 31.11-16.32 30.98-16.57L22.29-8.91ZM6.32 1.65L27.94 1.65C28.79 1.65 29.46 1.44 29.91 1.14L20.99-7.78L19.28-6.26C18.60-5.66 17.86-5.36 17.12-5.36C16.39-5.36 15.66-5.66 14.98-6.26L13.27-7.78L4.35 1.14C4.79 1.44 5.45 1.65 6.32 1.65Z"
+                  fill="currentColor" />
+              </svg>
+            </div>
+            <div class="password relative mt-3">
+              <input type="password" placeholder="Password"
+                class="w-full border border-black/20 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ad4e00] focus:border-transparent pl-10 font-medium" />
+              <svg class="absolute size-5 top-1/2 left-2 text-black/70 -translate-y-1/2" viewBox="0 0 24 24">
+                <title>lock.fill</title>
+                <path
+                  transform="matrix(0.8698606863744478, 0, 0, 0.8698606863744478, 2.1783893985728855, 19.624872579001018)"
+                  d="M5.93 2.73L16.65 2.73C18.38 2.73 19.29 1.79 19.29-0.06L19.29-8.13C19.29-9.76 18.59-10.68 17.24-10.88L17.24-13.71C17.24-18.12 14.36-20.26 11.29-20.26C8.23-20.26 5.34-18.12 5.34-13.71L5.34-10.88C4.01-10.68 3.29-9.76 3.29-8.13L3.29-0.06C3.29 1.79 4.21 2.73 5.93 2.73ZM7.21-13.97C7.21-16.92 9.09-18.49 11.29-18.49C13.48-18.49 15.39-16.92 15.39-13.97L15.39-10.91L7.21-10.91Z"
+                  fill="currentColor" />
+              </svg>
+              <div class="eye absolute size-5 top-1/2 right-3 text-black/70 -translate-y-1/2 cursor-pointer">
+                <svg class="size-5 eye-closed" viewBox="0 0 24 24">
+                  <title>eye.slash.circle.fill</title>
+                  <path
+                    transform="matrix(0.8366013071895425, 0, 0, 0.8366013071895425, 0.2450980392156863, 19.068627450980394)"
+                    d="M14.05 3.50C20.65 3.50 26.00-1.85 26.00-8.45C26.00-15.04 20.65-20.40 14.05-20.40C7.46-20.40 2.10-15.04 2.10-8.45C2.10-1.85 7.46 3.50 14.05 3.50ZM19.73-1.98L7.55-14.14C7.35-14.37 7.35-14.72 7.55-14.93C7.78-15.15 8.12-15.15 8.34-14.93L20.52-2.77C20.73-2.54 20.73-2.20 20.52-1.98C20.31-1.77 19.95-1.78 19.73-1.98ZM17.31-7.27C17.45-7.64 17.53-8.03 17.53-8.44C17.53-10.37 15.97-11.91 14.05-11.91C13.64-11.91 13.24-11.84 12.88-11.71L11.29-13.30C12.14-13.57 13.07-13.73 14.05-13.73C19.03-13.73 22.50-9.70 22.50-8.44C22.50-7.75 21.42-6.19 19.63-4.95ZM16.84-3.59C15.98-3.32 15.04-3.14 14.05-3.14C9.12-3.14 5.59-7.18 5.59-8.44C5.59-9.14 6.68-10.69 8.48-11.94L10.78-9.62C10.64-9.26 10.57-8.86 10.57-8.44C10.57-6.55 12.12-4.97 14.05-4.97C14.47-4.97 14.86-5.05 15.22-5.19ZM14.32-10.27C15.18-10.27 15.86-9.53 15.86-8.73ZM13.78-6.63C12.91-6.62 12.20-7.38 12.22-8.18Z"
+                    fill="currentColor" />
+                </svg>
+
+                <svg class="eye-open size-5 hidden" viewBox="0 0 24 24">
+                  <title>eye.fill</title>
+                  <path
+                    transform="matrix(0.6295339972949711, 0, 0, 0.6295339972949711, 0.4950202877167098, 17.32644780523792)"
+                    d="M18.28 1.50C27.67 1.50 34.16-6.09 34.16-8.46C34.16-10.84 27.66-18.42 18.28-18.42C9.01-18.42 2.39-10.84 2.39-8.46C2.39-6.09 9.01 1.50 18.28 1.50ZM18.28-1.91C14.66-1.91 11.73-4.85 11.73-8.46C11.73-12.08 14.66-15.01 18.28-15.01C21.89-15.01 24.83-12.08 24.83-8.46C24.83-4.85 21.89-1.91 18.28-1.91ZM18.28-6.07C19.61-6.07 20.67-7.14 20.67-8.46C20.67-9.79 19.61-10.85 18.28-10.85C16.96-10.85 15.89-9.79 15.89-8.46C15.89-7.14 16.96-6.07 18.28-6.07Z"
+                    fill="currentColor" />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p class="text-blue-500 text-end mt-2 font-medium text-sm hover:underline cursor-pointer">
+                Forgot your password?
+              </p>
+            </div>
+          </div>
+
+          <div class="btn mt-8 flex flex-col gap-5">
+            <button
+              class="flex items-center justify-center gap-2 w-full bg-[#222327] rounded-lg text-white py-3 cursor-pointer hover:bg-black font-semibold">
+              <svg fill="currentColor" width="24px" height="24px" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z" />
+              </svg>
+              <span class="mt-1">Create Account</span>
+            </button>
+            <p class="w-full flex items-center justify-between font-semibold text-sm text-black/70"><span
+                class="w-[45%] h-px rounded-full bg-black/20"></span> OR <span
+                class="w-[45%] h-px rounded-full bg-black/20" </span></p>
+            <div class="btn-group flex gap-3 justify-stretch flex-col lg:flex-row">
+              <button
+                class="flex items-center justify-center gap-2 w-full bg-[#f5f5f5] rounded-lg text-black/80 py-3 cursor-pointer hover:bg-[#eaeaea] font-medium text-sm">
+                <svg class="size-5" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="xMidYMid" fill="#000000">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"
+                      fill="#4285F4"></path>
+                    <path
+                      d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"
+                      fill="#34A853"></path>
+                    <path
+                      d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"
+                      fill="#FBBC05"></path>
+                    <path
+                      d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"
+                      fill="#EB4335"></path>
+                  </g>
+                </svg>
+                <span class="mt-1">Sign Up with Google</span>
+              </button>
+              <button
+                class="flex items-center justify-center gap-2 w-full bg-[#f5f5f5] rounded-lg text-black/80 py-3 cursor-pointer hover:bg-[#eaeaea] font-medium text-sm">
+                <svg fill="currentColor" width="24px" height="24px" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z" />
+                </svg>
+                <span class="mt-1">Sign Up with Apple</span>
+              </button>
+
+            </div>
+            <p class="text-center font-medium flex items-center justify-center mt-4 gap-3">Already have an account?
+              <span class="font-semibold cursor-pointer hover:underline text-blue-500">Log in</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const passwordInput = document.querySelector(".password input");
+    const toggleBtn = document.querySelector(".eye");
+    const eyeClosed = document.querySelector(".eye-closed");
+    const eyeOpen = document.querySelector(".eye-open");
+
+    toggleBtn.addEventListener("click", () => {
+      const isHidden = passwordInput.type === "password";
+
+      passwordInput.type = isHidden ? "text" : "password";
+
+      eyeClosed.classList.toggle("hidden");
+      eyeOpen.classList.toggle("hidden");
+    });
+
+  </script>
+</body>
+
+</html>
